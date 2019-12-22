@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skindata xmlns:android="http://schemas.android.com/apk/res/android">
+    <String>
+        <TargetVersion android:value="2.30" />
+    </String>
+    <Color>
+        <!-- メニューバー -->
+        <MenuBarBackground android:resource="@color/colorBackgroundStatic" />
+        <MenuBarBackgroundSelected android:resource="@color/colorBackgroundStaticSelected" />
+
+        <!-- 文字入力キー文字色 -->
+        <KeyColor android:resource="@color/colorForegroundPrimary" />
+        <!--<KeyColorStroke android:resource="@color/transparent" />-->
+        <!--<KeyColor2ndStroke android:resource="@color/transparent" />-->
+
+        <!-- 文字入力キーヒント文字色 -->
+        <KeyHintColor android:resource="@color/colorForegroundHint" />
+        <!--<KeyHintColorStroke android:resource="@color/transparent" />-->
+
+        <!-- 操作キー文字色 -->
+        <KeyColor2nd android:resource="@color/colorForegroundPrimary" />
+
+        <!-- 操作キーヒント文字色 -->
+        <KeyHintColor2 android:resource="@color/colorForegroundHint" />
+        <!--<KeyHintColor2Stroke android:resource="@color/transparent" />-->
+
+        <!-- 用途不明 -->
+        <!--<KeyEdgeColor android:resource="@color/transparent" />-->
+
+        <!-- キー毎のモチーフ背景色 -->
+        <KeyColorEnter android:resource="@color/colorAccent" />
+        <KeybackgroundEnter android:resource="@color/transparent" />
+        <KeybackgroundSpace android:resource="@color/colorForegroundHint" />
+
+        <!-- 文字切り替え -->
+        <InputModeKeyMainColor android:resource="@color/colorForegroundPrimary" />
+        <!--<InputModeKeyMainColorStroke android:resource="@color/transparent" />-->
+        <InputModeKeyModeSelectedColor android:resource="@color/colorAccent" />
+        <InputModeKeyModeSelectedColorStroke android:resource="@color/colorAccent" />
+        <InputModeKeyModeColor android:resource="@color/colorForegroundHint" />
+        <!--<InputModeKeyModeColorStroke android:resource="@color/transparent" />-->
+
+        <!-- 文字切り替え右フリック -->
+        <SlidePopupNormal android:resource="@color/colorForegroundAlternate" />
+        <SlidePopupFocused android:resource="@color/colorForegroundPrimary" />
+        <SlidePopupBackgroundNormal android:resource="@color/colorBackgroundAlternate" />
+        <SlidePopupBackgroundFocused android:resource="@color/colorAccent" />
+
+        <!-- キーボード押下時ポップアップ -->
+        <KeyPreviewColor android:resource="@color/colorForegroundAlternate" />
+
+        <!-- 記号入力上タブ -->
+        <TabSelectColor android:resource="@color/colorAccent" />
+        <TabNoSelectColor android:resource="@color/colorForegroundSecondary" />
+        <TabDisableColor android:resource="@color/colorForegroundHint" />
+
+        <!-- 記号入力下タブ -->
+        <CategoryColorNormal android:resource="@color/colorForegroundSecondary" />
+        <CategoryColorPressed android:resource="@color/colorForegroundSecondary" />
+        <CategoryColorSelected android:resource="@color/colorAccent" />
+
+        <!-- 変換候補 -->
+        <CandidateColor android:resource="@color/colorForegroundPrimary" />
+        <CandidateHintColor android:resource="@color/colorAccent" />
+        <CandidateSymbolColor android:resource="@color/colorAccent" />
+        <CandidateNumberColor android:resource="@color/colorAccent" />
+
+        <!-- 外部変換 -->
+        <WebApiButtonColor android:resource="@color/colorAccent" />
+        <WebApiCandidateColor android:resource="@color/colorAccent" />
+
+        <!-- 変換候補なし -->
+        <NoCandidateColor android:resource="@color/colorAccent" />
+
+        <!-- 変換候補右上の展開ボタン -->
+        <CandUpDownColor android:resource="@color/colorForegroundHint" />
+        <CandUpDownBackgroundColor android:resource="@color/colorBackground" />
+    </Color>
+    <Drawable>
+        <Keyboardbackground android:resource="@color/colorBackground" />
+        <Keybackground android:resource="@drawable/keyimage_btn_keyboard_key_normal" />
+        <KeybackgroundPress android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
+        <Keybackground2nd android:resource="@drawable/keyimage_btn_keyboard_key_normal_2nd" />
+        <Keybackground2ndPress android:resource="@drawable/keyimage_btn_keyboard_key_pressed_2nd" />
+        <Keybackground2ndShiftOn android:resource="@drawable/btn_keyboard_key_normal_on_2nd" />
+        <Keybackground2ndPressShiftOn android:resource="@drawable/btn_keyboard_key_pressed_on_2nd" />
+        <key-1_bg android:resource="@drawable/btn_keyboard_key_normal_off_2nd" />
+        <key-1_bg_Press android:resource="@drawable/btn_keyboard_key_pressed_off_2nd" />
+        <KeyPreviewNoMoreBackground android:resource="@drawable/key_preview_no_more_background" />
+        <KeyPreviewMoreBackground android:resource="@drawable/key_preview_more_background" />
+        <Keyboardbackground1Line android:resource="@color/colorBackground" />
+        <tab android:resource="@color/colorBackground" />
+        <tab_select android:resource="@color/colorBackground" />
+        <tab_no_select android:resource="@color/colorBackground" />
+        <tab_press android:resource="@color/colorBackground" />
+        <CategoryBackgroundSelected android:resource="@color/transparent" />
+        <CategoryBackgroundNormal android:resource="@color/transparent" />
+        <CategoryBackgroundPressed android:resource="@color/transparent" />
+        <CandidateBackgroundNormal android:resource="@drawable/keyimage_btn_keyboard_key_normal" />
+        <CandidateBackgroundFocused android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
+        <CandidateBackgroundPressed android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
+        <CandidateBackgroundNormalWebApi android:resource="@drawable/keyimage_btn_keyboard_key_normal" />
+        <CandidateBackgroundFocusedWebApi android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
+        <CandidateBackgroundPressedWebApi android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
+        <CandidateNumberBackground android:resource="@color/colorBackground" />
+        <CandidateLauncherBackground android:resource="@color/colorBackground" />
+        <CandidateBlankBackground android:resource="@color/colorBackground" />
+        <key_12key_reverse android:resource="@drawable/key_12key_reverse" />
+        <key_12key_left android:resource="@drawable/key_12key_left" />
+        <key_12key_right android:resource="@drawable/key_12key_right" />
+        <!--<key-311_12key android:resource="@drawable/key_12key_voice2" />
+        <key-217_12key android:resource="@drawable/key_12key_right2" />
+        <key-218_12key android:resource="@drawable/key_12key_left2" />
+        <key-1_upper android:resource="@drawable/key_qwerty_shift_locked2" />
+        <key_12key_hiragana1 android:resource="@drawable/key_12key_hiragana1" />
+        <key_12key_hiragana2 android:resource="@drawable/key_12key_hiragana2" />
+        <key_12key_hiragana3 android:resource="@drawable/key_12key_hiragana3" />
+        <key_12key_hiragana4 android:resource="@drawable/key_12key_hiragana4" />
+        <key_12key_hiragana5 android:resource="@drawable/key_12key_hiragana5" />
+        <key_12key_hiragana6 android:resource="@drawable/key_12key_hiragana6" />
+        <key_12key_hiragana7 android:resource="@drawable/key_12key_hiragana7" />
+        <key_12key_hiragana8 android:resource="@drawable/key_12key_hiragana8" />
+        <key_12key_hiragana9 android:resource="@drawable/key_12key_hiragana9" />
+        <key_12key_hiragana0 android:resource="@drawable/key_12key_hiragana0" />
+        <key_12key_dakuten android:resource="@drawable/key_12key_dakuten" />
+        <key_12key_ten android:resource="@drawable/key_12key_ten" />-->
+
+        <key_enter android:resource="@drawable/key_enter" />
+    </Drawable>
+</Skindata>

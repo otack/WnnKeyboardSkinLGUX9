@@ -1,0 +1,10 @@
+<resources>
+    <string name="select_theme">テーマの選択</string>
+    <string name="theme_auto">自動</string>
+    <string name="theme_default">標準</string>
+    <string name="theme_dark">ダーク</string>
+
+    <string name="check_theme_below">以下でテーマを確認できます。</string>
+    <string name="input_normal">通常の入力</string>
+    <string name="input_phonenumber">電話番号の入力</string>
+</resources>

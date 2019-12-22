@@ -1,0 +1,13 @@
+<resources>
+    <string name="select_theme">Select theme</string>
+    <string name="theme_auto">Auto</string>
+    <string name="theme_default">Normal</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="check_theme_below">Check theme below</string>
+    <string name="input_normal">Normal input</string>
+    <string name="input_phonenumber">Phone number input</string>
+
+    <string name="app_name">Wnn Keyboard Skin (LG UX 9.0)</string>
+    <string name="app_short_name">LG UX 9.0</string>
+</resources>

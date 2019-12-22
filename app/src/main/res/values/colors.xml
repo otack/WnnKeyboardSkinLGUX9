@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorForegroundPrimary">#DE000000</color><!-- 87% opacity -->
+    <color name="colorForegroundSecondary">#8A000000</color><!-- 54% opacity -->
+    <color name="colorForegroundHint">#61000000</color><!-- 38% opacity -->
+    <color name="colorForegroundDivider">#1F000000</color><!-- 12% opacity -->
+    <color name="colorBackground">#FFF0F0F0</color>
+    <color name="colorControlHighlight">#33000000</color><!-- 20% opacity -->
+
+    <color name="colorForegroundAlternate">#DE000000</color>
+    <color name="colorBackgroundAlternate">#FFE0E0E0</color>
+
+    <!-- ダークモード共通 -->
+    <color name="colorAccent">#FF009AE1</color>
+    <color name="colorBackgroundStatic">#FF282828</color>
+    <color name="colorBackgroundStaticSelected">#FF4C4C4C</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="test1">#0000FF</color>
+    <color name="test2">#00FF00</color>
+    <color name="test3">#00FFFF</color>
+    <color name="test4">#FF0000</color>
+    <color name="test5">#FF00FF</color>
+    <color name="test6">#FFFF00</color>
+    <color name="test7">#9900FF</color>
+    <color name="test8">#99FF00</color>
+    <color name="test9">#FF9900</color>
+</resources>
