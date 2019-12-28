@@ -4,76 +4,131 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    android:clipToPadding="false"
     android:orientation="vertical"
+    android:background="@color/colorBackground"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher"
         />
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:hint="inputType=numberDecimal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/app_title"
         />
 
-    <EditText
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionDone"
-        android:imeOptions="actionDone"
-        />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionGo"
-        android:imeOptions="actionGo"
-        />
+        <LinearLayout
+            android:id="@+id/layoutIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:background="@drawable/main_content_bg"
+            tools:visibility="gone">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionSearch"
-        android:imeOptions="actionSearch"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/introduction"
+                />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionSend"
-        android:imeOptions="actionSend"
-        />
+            <Button
+                android:id="@+id/buttonOpenWnnStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:minWidth="144dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/install"
+                android:background="@drawable/main_button_bg"
+                android:stateListAnimator="@null"
+                />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionNext"
-        android:imeOptions="actionNext"
-        />
+        </LinearLayout>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionPrevious"
-        android:imeOptions="actionPrevious"
-        />
+        <LinearLayout
+            android:id="@+id/layoutTips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="actionNone"
-        android:imeOptions="actionNone"
-        />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:minHeight="40dp"
+                android:paddingHorizontal="20dp"
+                android:textSize="16sp"
+                android:textColorHint="@color/colorForegroundHint"
+                android:hint="@string/tap_here_and_check_keyboard"
+                android:background="@drawable/main_edittext_bg"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/colorForegroundHint"
+                android:text="@string/tips_title"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:clipToPadding="false"
+                android:background="@drawable/main_content_bg">
+
+                <TextView
+                    android:id="@+id/textTipsMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    tools:text="@string/tips_message"
+                    />
+
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <CheckBox
+                android:id="@+id/checkHideLauncherIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:text="@string/show_launcher_icon"
+                android:checked="true"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
 </LinearLayout>

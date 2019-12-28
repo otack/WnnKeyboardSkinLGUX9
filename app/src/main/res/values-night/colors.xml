@@ -3,10 +3,13 @@
     <color name="colorForegroundPrimary">#FFFFFFFF</color><!-- 100% opacity -->
     <color name="colorForegroundSecondary">#B3FFFFFF</color><!-- 70% opacity -->
     <color name="colorForegroundHint">#80FFFFFF</color><!-- 50% opacity -->
-    <color name="colorForegroundDivider">#1FFFFFFF</color><!-- 12% opacity -->
     <color name="colorBackground">#FF000000</color>
     <color name="colorControlHighlight">#33FFFFFF</color><!-- 20% opacity -->
 
     <color name="colorForegroundAlternate">#DE000000</color>
     <color name="colorBackgroundAlternate">#FFCCCCCC</color>
+
+    <!-- UI用 -->
+    <color name="colorContentBackground">#1FFFFFFF</color><!-- 12% opacity -->
+    <color name="colorInputBackground">#33FFFFFF</color><!-- 20% opacity -->
 </resources>
