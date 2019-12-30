@@ -106,8 +106,8 @@
         <CandidateLauncherBackground android:resource="@color/colorBackground" />
         <CandidateBlankBackground android:resource="@color/colorBackground" />
         <key_12key_reverse android:resource="@drawable/key_12key_reverse" />
-        <key_12key_left android:resource="@drawable/key_12key_left" />
-        <key_12key_right android:resource="@drawable/key_12key_right" />
+        <key_12key_left android:resource="@drawable/key_qwerty_left" />
+        <key_12key_right android:resource="@drawable/key_qwerty_right" />
         <!--<key-311_12key android:resource="@drawable/key_12key_voice2" />
         <key-217_12key android:resource="@drawable/key_12key_right2" />
         <key-218_12key android:resource="@drawable/key_12key_left2" />
@@ -124,8 +124,10 @@
         <key_12key_hiragana0 android:resource="@drawable/key_12key_hiragana0" />
         <key_12key_dakuten android:resource="@drawable/key_12key_dakuten" />
         <key_12key_ten android:resource="@drawable/key_12key_ten" />-->
-        <key_qwerty_left android:resource="@drawable/key_12key_left" />
-        <key_qwerty_right android:resource="@drawable/key_12key_right" />
+        <key_qwerty_left android:resource="@drawable/key_qwerty_left" />
+        <key_qwerty_right android:resource="@drawable/key_qwerty_right" />
+        <key_qwerty_up android:resource="@drawable/key_qwerty_up" />
+        <key_qwerty_down android:resource="@drawable/key_qwerty_down" />
 
         <key_enter android:resource="@drawable/key_enter" />
     </Drawable>
