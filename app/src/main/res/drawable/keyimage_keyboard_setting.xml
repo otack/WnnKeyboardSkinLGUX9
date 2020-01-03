@@ -2,6 +2,8 @@
 <Skindata xmlns:android="http://schemas.android.com/apk/res/android">
     <String>
         <TargetVersion android:value="2.30" />
+        <app_name android:resource="@string/app_name" />
+        <label_name android:resource="@string/skin_name" />
     </String>
     <Color>
         <!-- メニューバー -->
@@ -77,6 +79,8 @@
         <CandUpDownBackgroundColor android:resource="@color/colorBackground" />
     </Color>
     <Drawable>
+        <keyimage_skin_m android:resource="@drawable/keyimage_skin" />
+        <keyimage_skin_t android:resource="@drawable/keyimage_skin" />
         <Keyboardbackground android:resource="@color/colorBackground" />
         <Keybackground android:resource="@drawable/keyimage_btn_keyboard_key_normal" />
         <KeybackgroundPress android:resource="@drawable/keyimage_btn_keyboard_key_pressed" />
