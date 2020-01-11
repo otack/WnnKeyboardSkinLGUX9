@@ -18,8 +18,18 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WnnKBDSkinLGUX9"
+            android:icon="@drawable/keyimage_skin"
+            android:label="@string/skin_name">
+            <meta-data
+                android:name="settingfile"
+                android:resource="@drawable/keyimage_keyboard_setting" />
+            <intent-filter>
                 <action android:name="jp.co.omronsoft.wnnext.ADD_SKIN" />
+                <action android:name="jp.co.omronsoft.wnnext.ADD_SKIN2" />
             </intent-filter>
         </activity>
         <meta-data android:name="appcnt" android:value="1" />
