@@ -8,9 +8,9 @@ android {
     defaultConfig {
         applicationId "in.slit.wnnext.skin.lgux9"
         minSdkVersion 28
-        versionCode 100100
-        versionName "1.1"
         targetSdkVersion 30
+        versionCode 100200
+        versionName "1.2"
     }
     buildTypes {
         release {
