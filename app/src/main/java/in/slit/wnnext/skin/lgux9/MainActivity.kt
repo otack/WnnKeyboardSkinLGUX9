@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
             }
             packageManager.setComponentEnabledSetting(component, state, PackageManager.DONT_KILL_APP)
         }
+        textPrivacy.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.privacy_url)))
+            startActivity(intent)
+        }
 
         if (isWnnInstalled()) {
             layoutIntroduction.visibility = View.GONE

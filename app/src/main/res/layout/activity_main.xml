@@ -31,7 +31,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <LinearLayout
             android:id="@+id/layoutIntroduction"
@@ -112,18 +113,12 @@
 
             </FrameLayout>
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                />
-
             <CheckBox
                 android:id="@+id/checkHideLauncherIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/show_launcher_icon"
                 android:checked="true"
                 />
@@ -131,4 +126,14 @@
         </LinearLayout>
 
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/textPrivacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="@string/privacy_policy"
+        />
 </LinearLayout>

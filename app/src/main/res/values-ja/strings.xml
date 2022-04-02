@@ -6,4 +6,5 @@
     <string name="tap_here_and_check_keyboard">ここをタップしてキーボードを確認</string>
     <string name="tips_title">便利な使い方</string>
     <string name="tips_message">キーボードの上部に表示されているメニューは $ を長押しすることで隠せます。</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
 </resources>

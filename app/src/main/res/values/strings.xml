@@ -6,8 +6,11 @@
     <string name="tap_here_and_check_keyboard">Tap here and check keyboard</string>
     <string name="tips_title">Tips</string>
     <string name="tips_message">The menu displayed at the top of keyboard can be hidden by pressing and holding $ .</string>
+    <string name="privacy_policy">Privacy Policy</string>
 
     <string name="app_name" translatable="false">Wnn Keyboard (LG UX 9.0)</string>
     <string name="launcher_name" translatable="false">Wnn LG UX 9.0</string>
     <string name="skin_name" translatable="false">LG UX 9.0</string>
+
+    <string name="privacy_url" translatable="false">https://copin.dev/wnnext-skin-lgux9/privacy/</string>
 </resources>
