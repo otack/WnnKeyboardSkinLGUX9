@@ -10,6 +10,6 @@
     <color name="colorBackgroundAlternate">#FFCCCCCC</color>
 
     <!-- UI用 -->
-    <color name="colorContentBackground">#1FFFFFFF</color><!-- 12% opacity -->
+    <color name="colorContentBackground">#FF1F1F1F</color>
     <color name="colorInputBackground">#33FFFFFF</color><!-- 20% opacity -->
 </resources>
