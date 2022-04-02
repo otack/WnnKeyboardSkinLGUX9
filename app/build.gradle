@@ -9,8 +9,8 @@ android {
         applicationId "in.slit.wnnext.skin.lgux9"
         minSdkVersion 28
         targetSdkVersion 30
-        versionCode 100200
-        versionName "1.2"
+        versionCode 100300
+        versionName "1.3"
     }
     buildTypes {
         release {
