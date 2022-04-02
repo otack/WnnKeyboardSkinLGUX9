@@ -21,6 +21,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SubActivity"
+            android:exported="false" />
+        <activity
             android:name=".WnnKBDSkinLGUX9"
             android:icon="@drawable/keyimage_skin"
             android:label="@string/skin_name">

@@ -2,7 +2,8 @@
     <string name="app_title">LG UX 9.0\nkeyboard image</string>
     <string name="show_launcher_icon">Show icon in app launcher</string>
     <string name="introduction">This app is a theme for Wnn Keyboard Lab developed by Omron.\n\Please install Wnn Keyboard Lab first.</string>
-    <string name="install">Install</string>
+    <string name="install">Install Now</string>
+    <string name="already_installed">Already Installed</string>
     <string name="tap_here_and_check_keyboard">Tap here and check keyboard</string>
     <string name="tips_title">Tips</string>
     <string name="tips_message">The menu displayed at the top of keyboard can be hidden by pressing and holding $ .</string>
